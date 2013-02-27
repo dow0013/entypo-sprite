@@ -1,0 +1,330 @@
+/******************************************************************
+
+Author: Tyler Dow
+
+Stylesheet: Entypo Social Sprite
+
+******************************************************************/
+body {
+	background: url(../images/bg.png);
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	color: #fff;
+}
+
+h1 {
+	font-size: 3.5em;
+	margin-bottom: 5px;
+	text-shadow: 1px 1px 0px #000;
+    filter: dropshadow(color=#000, offx=1, offy=1);
+}
+
+#container {
+	width: 50%;
+	max-width: 920px;
+	background: #515151;
+	padding: 5% 10%;
+	margin: auto;
+	margin-top: 30px;
+	text-align: center;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+	-webkit-box-shadow:  0px 0px 5px 0px #3d3d3d;
+    box-shadow:  0px 0px 5px 0px #3d3d3d;
+}
+
+.big-button {
+	display: inline-block;
+	width: 75%;
+	margin: auto;
+	padding: 5px 0px;
+	text-align: center;
+	font-size: 2em;
+	color: #fff;
+	background: #515ca1;
+	text-decoration: none;
+	margin-top: 45px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	text-shadow: 1px 1px 0px #000;
+    filter: dropshadow(color=#000, offx=1, offy=1);
+    -webkit-box-shadow:  0px 0px 7px 0px #3d3d3d;
+    box-shadow:  0px 0px 7px 0px #3d3d3d;
+}
+
+footer {
+	width: 60%;
+	max-width: 920px;
+	background: #989898;
+	margin: auto;
+	padding: 20px 5%;
+	color: #454545;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	border-radius: 0px 0px 5px 5px;
+	-webkit-box-shadow:  0px 0px 5px 0px #3d3d3d;
+    box-shadow:  0px 0px 5px 0px #3d3d3d;
+}
+footer a {color: #515ca1;}
+footer a:visited {color: #515ca1;}
+footer a:hover {color: #545983;}
+
+
+
+
+
+/* ///////////////////////////////////
+//////////////////////////////////////
+
+//		The Meat And Potatoes       //
+	
+//////////////////////////////////////
+////////////////////////////////////*/
+
+
+.icon-container a {
+	background-image:url(../images/entypo-social-sprite.png);
+	width:30px;
+	height:30px;
+	display:inline-block;
+	margin:5px;
+}
+
+.github {
+	background-position:0 0;
+}
+
+.github:hover {
+	background-position:0 30px;
+}
+
+.flickr {
+	background-position:-30px 0;
+}
+
+.flickr:hover {
+	background-position:-30px 30px;
+}
+
+.vimeo {
+	background-position:-60px 0;
+}
+
+.vimeo:hover {
+	background-position:-60px 30px;
+}
+
+.twitter {
+	background-position:-90px 0;
+}
+
+.twitter:hover {
+	background-position:-90px 30px;
+}
+
+.facebook {
+	background-position:-120px 0;
+}
+
+.facebook:hover {
+	background-position:-120px 30px;
+}
+
+.google {
+	background-position:-150px 0;
+}
+
+.google:hover {
+	background-position:-150px 30px;
+}
+
+.pinterest {
+	background-position:-180px 0;
+}
+
+.pinterest:hover {
+	background-position:-180px 30px;
+}
+
+.tumblr {
+	background-position:-210px 0;
+}
+
+.tumblr:hover {
+	background-position:-210px 30px;
+}
+
+.linkedin {
+	background-position:-240px 0;
+}
+
+.linkedin:hover {
+	background-position:-240px 30px;
+}
+
+.dribbble {
+	background-position:-270px 0;
+}
+
+.dribbble:hover {
+	background-position:-270px 30px;
+}
+
+.stumbleupon {
+	background-position:-300px 0;
+}
+
+.stumbleupon:hover {
+	background-position:-300px 30px;
+}
+
+.lastfm {
+	background-position:-330px 0;
+}
+
+.lastfm:hover {
+	background-position:-330px 30px;
+}
+
+.rdio {
+	background-position:-360px 0;
+}
+
+.rdio:hover {
+	background-position:-360px 30px;
+}
+
+.spotify {
+	background-position:-390px 0;
+}
+
+.spotify:hover {
+	background-position:-390px 30px;
+}
+
+.qq {
+	background-position:-420px 0;
+}
+
+.qq:hover {
+	background-position:-420px 30px;
+}
+
+.instagram {
+	background-position:-450px 0;
+}
+
+.instagram:hover {
+	background-position:-450px 30px;
+}
+
+.dropbox {
+	background-position:-480px 0;
+}
+
+.dropbox:hover {
+	background-position:-480px 30px;
+}
+
+.evernote {
+	background-position:-510px 0;
+}
+
+.evernote:hover {
+	background-position:-510px 30px;
+}
+
+.flattr {
+	background-position:-540px 0;
+}
+
+.flattr:hover {
+	background-position:-540px 30px;
+}
+
+.skype {
+	background-position:-570px 0;
+}
+
+.skype:hover {
+	background-position:-570px 30px;
+}
+
+.renren {
+	background-position:-600px 0;
+}
+
+.renren:hover {
+	background-position:-600px 30px;
+}
+
+.sina-weibo {
+	background-position:-630px 0;
+}
+
+.sina-weibo:hover {
+	background-position:-630px 30px;
+}
+
+.paypal {
+	background-position:-660px 0;
+}
+
+.paypal:hover {
+	background-position:-660px 30px;
+}
+
+.picasa {
+	background-position:-690px 0;
+}
+
+.picasa:hover {
+	background-position:-690px 30px;
+}
+
+.soundcloud {
+	background-position:-720px 0;
+}
+
+.soundcloud:hover {
+	background-position:-720px 30px;
+}
+
+.mixi {
+	background-position:-750px 0;
+}
+
+.mixi:hover {
+	background-position:-750px 30px;
+}
+
+.behance {
+	background-position:-780px 0;
+}
+
+.behance:hover {
+	background-position:-780px 30px;
+}
+
+.google-circles {
+	background-position:-810px 0;
+}
+
+.google-circles:hover {
+	background-position:-810px 30px;
+}
+
+.vk {
+	background-position:-840px 0;
+}
+
+.vk:hover {
+	background-position:-840px 30px;
+}
+
+.smashing {
+	background-position:-870px 0;
+}
+
+.smashing:hover {
+	background-position:-870px 30px;
+}
